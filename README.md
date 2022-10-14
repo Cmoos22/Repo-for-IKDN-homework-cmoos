@@ -1,3 +1,3 @@
 # Repo-for-IDKN-homework-cmoos
-to be able to share P1 progress 
+repo for IKDN homework 
 the first homework 
