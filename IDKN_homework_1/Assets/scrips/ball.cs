@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/* code frome line 8 - 53 is mostly taken from sorce: 
+/* code  sorce: 
  * https://www.youtube.com/watch?v=pwZpJzpE2lQ&t=2396s */
 
 public class ball : MonoBehaviour

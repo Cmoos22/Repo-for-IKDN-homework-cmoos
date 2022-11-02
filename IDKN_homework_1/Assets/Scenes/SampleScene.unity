@@ -195,6 +195,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7006145239051252476, guid: 635013701dd5f46d5ab29ecbd4ee1fe0, type: 3}
   m_PrefabInstance: {fileID: 1968676654}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &197083192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197083194}
+  - component: {fileID: 197083193}
+  m_Layer: 0
+  m_Name: 'scriped Manager '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &197083193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197083192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544ff17a78b964155a33185a8a18820e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballName: Charlie
+--- !u!4 &197083194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197083192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.241439, y: -0.69551474, z: 2.998309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &327045547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -314,6 +359,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7006145239051252476, guid: 635013701dd5f46d5ab29ecbd4ee1fe0, type: 3}
   m_PrefabInstance: {fileID: 379400257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &458334743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 458334744}
+  m_Layer: 0
+  m_Name: 'fINNISH line '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &458334744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458334743}
+  m_LocalRotation: {x: 0.51741815, y: -0.24668966, z: 0.07830545, w: 0.8156537}
+  m_LocalPosition: {x: 3.32, y: 10.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &501028832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -636,7 +712,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 63
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -706,6 +782,7 @@ GameObject:
   - component: {fileID: 1498585274}
   - component: {fileID: 1498585273}
   - component: {fileID: 1498585278}
+  - component: {fileID: 1498585279}
   m_Layer: 6
   m_Name: ball
   m_TagString: Untagged
@@ -806,7 +883,7 @@ Transform:
   m_Children:
   - {fileID: 1815023863}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1498585278
 MonoBehaviour:
@@ -824,6 +901,19 @@ MonoBehaviour:
   ballMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &1498585279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498585272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544ff17a78b964155a33185a8a18820e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballName: Charlie
 --- !u!1001 &1688632374
 PrefabInstance:
   m_ObjectHideFlags: 0
